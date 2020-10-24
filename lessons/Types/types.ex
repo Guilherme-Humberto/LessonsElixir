@@ -26,3 +26,8 @@ valor2 = 20
 IO.puts(valor1 == valor2)
 IO.puts( valor1 > valor2 )
 IO.puts( valor1 != valor2 )
+
+# Pode-se associar valores às variáveis desta maneira
+{x, y} = {2, 1}
+IO.puts(x)
+IO.puts(y)
