@@ -25,7 +25,7 @@ IO.puts "------------------------------------"
 
 # Para criar uma nova chave, use Map.put/3
 map5 = %{nome: "Guilherme"}
-IO.inspect(map5)
+IO.inspect(map5.nome)
 
 # Inserindo chave e valor no mapa
 map5 = Map.put(map5, :idade, 20)
