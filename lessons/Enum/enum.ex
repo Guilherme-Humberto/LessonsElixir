@@ -1,7 +1,6 @@
 # Trabalhando com enums
 # A enumeração é o núcleo da programação funcional e é uma coisa incrivelmente útil.
 
-
 # A função all? irá analisar cada um dos valores do Enum
 # Irá retornar true se o tamanho dos valores for maior do que 4 
 enum = Enum.all?(["Carros", "Pessoa", "Animal"], fn(e) -> String.length(e) > 4 end)
