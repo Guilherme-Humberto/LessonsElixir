@@ -1,11 +1,11 @@
 # Trabalhando com lista
 
-lista = ["Guilherme ", "Humberto ", "Ciline"]
+lista = ["Guilherme ", "Humberto ", "Ciline "]
 IO.puts(lista)
 IO.puts "------------------------------------"
 # Prepending (rápido)
 # Inserindo valores no inicio da lista
-lista = ["Maria " | lista]
+lista = ["Leticia " | lista]
 IO.puts(lista)
 IO.puts "------------------------------------"
 
